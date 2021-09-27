@@ -1,0 +1,156 @@
+.menu{
+	transition: background-color 800ms
+}
+.menu:hover{
+    background-color: #FE2E64;
+    color: white;
+    /*animation: <animation-name> <duration> <no of times> <effect-name> <delay>*/
+    -webkit-animation: back-pulse 800ms infinite linear 500ms;
+    animation: back-pulse 800ms infinite linear 500ms;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+
+  @keyframes back-pulse
+  0%, 50%, 100%
+    background-color: rgba(72,91,110,.75)
+  25%, 75%;
+    background-color: #485B6E
+@-webkit-keyframes back-pulse
+  0%, 50%, 100%;
+    background-color: rgba(84,153,199,.75)
+  25%, 75%;
+    background-color: #FE2E64;
+    color: white;
+}
+.rodape{
+	height: 60px;
+	background: #4f4f4f;
+	color: #fff;
+	font-size: 16px;
+	line-height: 60px;
+}
+/*.slide{
+  background-color: #4f4f4f;
+  height: 450px;
+*/
+}
+.menu{
+  height: 300px;
+}
+.logo{
+  background-color: #c3c333
+}
+.container{
+  position: absolute;
+}
+.fas{
+  font-size: 100px;
+
+}
+.textinho{
+  color: #fff;
+  position: absolute;
+  margin-top: 140px;
+  z-index:9999;
+
+}
+/* quando mouse passar por cima */
+.imagemMapa:hover{
+  filter: blur(2px);
+}
+.textoImg{
+  display: none;
+}
+.textoImg:hover{
+  display: inline-block;
+}
+.jumbotron{
+	height: 450px;
+}
+#iconFila{
+  font-size: 80px;
+  text-indent: 55px;
+}
+#iconContato{
+  font-size: 80px;
+  text-indent: 40px;
+}
+#iconRota{
+  font-size: 80px;
+  text-indent: 40px;
+}
+.textMenu{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.ctContato {
+    background-color: #4f4f4f;
+    min-height: 200px;
+    width: 250px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,1);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+#resultado{
+  width: 200px;
+  height: 40px;
+  background-color: #4f4f4f;
+}
+
+.loginBox {
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-bottom: 7px solid #393;
+  border-top: 2px solid #939;
+  box-shadow: 0px 0px 40px #000;
+}
+
+.loginBox h4 {
+  margin-bottom: 35px;
+}
+
+.loginBox input, .formCadastro .campoTexto, .formCadastro textarea {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  font-weight: bold;
+  margin: 5px;
+  line-height: 30px;
+}
